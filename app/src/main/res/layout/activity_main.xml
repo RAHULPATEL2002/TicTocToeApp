@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#151823">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/player1"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:autofillHints="name"
+        android:textColorHint="#0B0A0C"
+        android:inputType="text"
+        android:id="@+id/pl1"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/player2"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:autofillHints="name"
+        android:textColorHint="#0B0A0C"
+        android:inputType="text"
+        android:id="@+id/pl2"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/rahul1"
+            android:text="@string/button1"
+            android:onClick="check"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/rahul2"
+            android:text="@string/button2"
+            android:onClick="check"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/rahul3"
+            android:text="@string/button3"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/rahul4"
+            android:text="@string/button4"
+            android:onClick="check"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/rahul5"
+            android:text="@string/button5"
+            android:onClick="check"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/rahul6"
+            android:text="@string/button6"
+            android:onClick="check"/>
+        <Button
+            android:id="@+id/rahul7"
+            android:text="@string/button7"
+            android:onClick="check"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/rahul8"
+            android:text="@string/button8"
+            android:onClick="check"/>
+        <Button
+            android:layout_marginStart="11dp"
+            android:id="@+id/rahul9"
+            android:text="@string/button9"
+            android:onClick="check"/>
+
+    </GridLayout>
+
+</LinearLayout>
