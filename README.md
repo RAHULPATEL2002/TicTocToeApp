@@ -11,7 +11,8 @@ A simple Tic Tac Toe game built for Android. Players can enter their names and t
 
 ## Screenshots
 
-*(Add screenshots of your app here, if available)*
+*![WhatsApp Image 2024-10-09 at 18 30 52_b5dc4f7d](https://github.com/user-attachments/assets/1b02977d-eb4d-4222-92c0-abae65ac42fb)
+*
 
 ## Getting Started
 
