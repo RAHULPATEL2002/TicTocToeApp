@@ -16,6 +16,7 @@ A simple Tic Tac Toe game built for Android. Players can enter their names and t
 
 ## Getting Started
 
+
 ### Prerequisites
 
 - Android Studio
@@ -25,4 +26,4 @@ A simple Tic Tac Toe game built for Android. Players can enter their names and t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tictactoe.git
+   git clone https://github.com/RAHULPATEL2002/TicTocToeApp.git
