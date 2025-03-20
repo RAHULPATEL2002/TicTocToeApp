@@ -16,7 +16,6 @@ A simple Tic Tac Toe game built for Android. Players can enter their names and t
 
 ## Getting Started
 
-
 ### Prerequisites
 
 - Android Studio
